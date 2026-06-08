@@ -1,0 +1,27 @@
+# OS / Dropbox
+Thumbs.db
+desktop.ini
+~$*
+
+# STM32 / CubeIDE build artifacts
+**/Debug/
+*.o
+*.d
+*.su
+*.cyclo
+*.list
+*.map
+obj/
+makefile
+*.mk
+objects.list
+objects.mk
+sources.mk
+subdir.mk
+
+# IDE local
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
